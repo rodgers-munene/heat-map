@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+#title{
+    position: absolute;
+    top: 10px;
+    font-size: 27px;
+    font-weight: 600;
+}
+#description{
+    position: absolute;
+    top: 40px;
+    font-size: 23px;
+    font-weight: 500;
+}
+#legend{
+    position: absolute;
+    bottom: -50px;
+
+}
+#tooltip{
+    width: 300px;
+    position: absolute;
+    opacity: 0;
+    color: #fff;
+    padding: 1rem;
+    height: auto;
+    border-radius: 5px;
+    
+}
